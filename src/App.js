@@ -222,7 +222,7 @@ class App extends Component {
                   <button
                     type="submit"
                     className="del-btn"
-                    onClick={this.deleteItem(eachValue.id)}
+                    onClick={() => this.deleteItem(eachValue.id)}
                     data-testid="delete"
                   >
                     <img
